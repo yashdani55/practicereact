@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState } from "react"
 
 export default function Userform() {
@@ -10,6 +11,10 @@ export default function Userform() {
     
     const save = function (event) {
         console.log(Userform);
+        const promise=axios.post("http://localhost:4200/users",Userform);
+        promise.then(function(response){
+            console.log(response);
+        })
     }
     return (
         <div>
