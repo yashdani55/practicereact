@@ -1,27 +1,29 @@
 import axios from "axios";
 import { useState } from "react"
 
-export default function Userform() {
-    const [Userform, setUserform] = useState({ firstname: 'Ram', age: 22 });
-    const handleevent = function (event) {
-        console.log(event);
-        setUserform({ ...Userform,[event.target.name]: event.target.value });
+export default function UserForm() {
 
-    }
-    
-    const save = function (event) {
-        console.log(Userform);
-        const promise=axios.post("http://localhost:4200/users",Userform);
-        promise.then(function(response){
-            console.log(response);
-        })
-    }
-    return (
-        <div>
-            <h3>Create User</h3>
-            <input name="name" value={Userform.firstname} onChange={handleevent}></input>
-            <input name="age" value={Userform.age} onChange={handleevent}></input>
-            <button onClick={save}>Save</button>
-        </div>
-    )
+  const [userform, setUserForm] = useState({ firstname: "Ram", age:20  });
+  const handleEvent = function (event) {
+    setUserForm({ ...userform, [event.target.name]: event.target.value })
+  }
+
+
+  const save = function (event) {
+    console.log(userform);
+    const promise = axios.post("http://localhost:4200/users", userform);
+    promise.then(function(response) {
+      console.log(response);
+    })
+  }
+
+  return (
+    <div>
+      <h3>Create User</h3>
+      <input name='firstname' placeholder="First Name" value={userform.firstname} onChange={handleEvent}></input>
+      <input name='age' type='number' placeholder="Age" value={userform.age} onChange={handleEvent}></input>
+      Joining Date: <input type="date" name="date" onChange={handleEvent}></input>
+      <button onClick={save}>Save</button>
+    </div>
+  )
 }
