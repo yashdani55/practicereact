@@ -3,51 +3,6 @@
     {
       "firstname": "Ram",
       "age": 20,
-      "date": "2021-07-08",
-      "id": 1
-    },
-    {
-      "firstname": "Yash",
-      "age": "22",
-      "date": "2021-07-14",
-      "id": 2
-    },
-    {
-      "firstname": "Ram",
-      "age": "30",
-      "date": "2021-07-18",
-      "id": 3
-    },
-    {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "CSS",
-      "id": 4
-    },
-    {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "CSS",
-      "date": "2021-07-11",
-      "id": 5
-    },
-    {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "HTML",
-      "date": "2021-07-18",
-      "id": 6
-    },
-    {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "HTML",
-      "date": "2021-07-18",
-      "id": 7
-    },
-    {
-      "firstname": "Ram",
-      "age": 20,
       "skill": "HTML",
       "date": "2021-07-18",
       "id": 8
@@ -60,53 +15,52 @@
       "id": 9
     },
     {
-      "firstname": "Ram",
-      "age": 20,
+      "firstname": "X",
+      "age": "22",
+      "date": "2021-07-24",
       "skill": "HTML",
-      "date": "2021-07-10",
       "id": 10
     },
     {
-      "firstname": "Ram",
-      "age": 20,
+      "firstname": "Z",
+      "age": "33",
+      "date": "2021-07-27",
       "skill": "HTML",
-      "date": "2021-07-10",
       "id": 11
     },
     {
-      "firstname": "Yash",
-      "age": "23",
-      "date": "2021-07-15",
-      "skill": "CSS",
+      "firstname": "Q",
+      "age": "18",
+      "date": "2021-07-09",
+      "skill": "JavaScript",
       "id": 12
     },
     {
-      "firstname": "Ram",
+      "firstname": "X",
       "age": 20,
-      "skill": "HTML",
-      "date": "2021-07-17",
+      "skill": "JavaScript",
+      "date": "2021-07-25",
       "id": 13
     },
     {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "HTML",
-      "date": "2021-07-08",
+      "firstname": "X",
+      "age": "222",
+      "date": "2021-07-18",
+      "skill": "CSS",
       "id": 14
     },
     {
-      "firstname": "Ram",
-      "age": 20,
-      "skill": "HTML",
-      "date": "2021-07-08",
+      "firstname": "ABC",
+      "age": "23",
+      "date": "2021-07-16",
+      "skill": "REACT",
       "id": 15
-    },
-    {
-      "firstname": "Ram",
-      "age": "20",
-      "skill": "JavaScript",
-      "date": "2021-07-08",
-      "id": 16
     }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "REACT",
+    "JavaScript"
   ]
 }
